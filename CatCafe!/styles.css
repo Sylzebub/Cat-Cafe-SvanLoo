@@ -1,0 +1,129 @@
+.body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background: url(img/catcafe2.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.nav__menu {
+  width: 800px;
+  float: right;
+  border: 1px solid none;
+  position: fixed;
+  margin-left: 700px;
+  z-index: 100;
+}
+
+.nav__menu ul li {
+  width: 120px;
+  float: left;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.nav__menu ul li a {
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.nav__menu ul li:hover {
+  text-shadow: rgb(0, 0, 0) 20px 10px;
+}
+
+.nav ul li a:hover {
+  color: white;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  /* margin-top: 10px; */
+}
+
+.home__content {
+  width: 300px;
+  height: 435px;
+  background-color: black;
+  /* border-radius: 15%; */
+  opacity: 0.8;
+  padding: 55px;
+  position: relative;
+  left: 80px;
+  top: 80px;
+  margin-bottom: 300px;
+}
+
+.home__content h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100px;
+}
+
+.home__content h4 {
+  text-align: justify;
+  color: darkgray;
+  font-weight: normal;
+}
+
+.home__content h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 40px auto;
+}
+
+.about__container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 800px;
+}
+
+.rules__container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 800px;
+}
+
+.menu__container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 1000px;
+}
+
+.book__container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 800px;
+}
+
+h1 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+
+/* footer */
+
+.footer {
+  background-color: black;
+  padding: 4rem 0 2.5rem;
+}
